@@ -29,7 +29,7 @@ import net.minecraft.command.ICommandSender;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CommandEvent;
 import org.spongepowered.api.plugin.PluginContainer;
-import org.spongepowered.api.command.InvocationCommandException;
+import org.spongepowered.api.command.exception.InvocationCommandException;
 import org.spongepowered.api.text.Text;
 import org.spongepowered.common.SpongeImpl;
 import org.spongepowered.common.command.MinecraftCommandWrapper;

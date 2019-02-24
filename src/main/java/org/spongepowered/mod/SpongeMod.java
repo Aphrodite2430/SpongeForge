@@ -68,7 +68,6 @@ import org.objectweb.asm.Type;
 import org.slf4j.Logger;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.block.BlockType;
-import org.spongepowered.api.command.CommandManager;
 import org.spongepowered.api.effect.potion.PotionEffectType;
 import org.spongepowered.api.item.potion.PotionType;
 import org.spongepowered.api.effect.sound.SoundType;
