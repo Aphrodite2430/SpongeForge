@@ -104,14 +104,6 @@ public class CustomItemDropTest {
         type.ifPresent(itemType -> this.EGG_TOSS = itemType);
     }
 
-    @Listener(beforeModifications = false)
-    @Exclude(DropItemEvent.Pre.class)
-    public void onDropItem(DropItemEvent event) {
-        if (this.areListenersEnabled) {
-            event.setCancelled(true);
-        }
-    }
-
     @Listener
     public void onDeath(DestructEntityEvent.Death entityEvent) {
         if (this.areListenersEnabled) {
